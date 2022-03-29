@@ -8,7 +8,7 @@ body {
 
 .main_container {
     width: 80%;
-    margin: 0 10%;
+    margin: auto;
 }
 
 /*------------------------
@@ -70,6 +70,10 @@ body {
     color: #292828;
 }
 
+.container{
+    width: 90%;
+    margin: auto;
+}
 
 /*------------------------
          Home_page 
@@ -78,45 +82,38 @@ body {
     height: 500px;
     margin: 20px;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
 }
 
 .home_article {
     width: 500px;
 }
 
-.home_article h1 {
+.home_page h1 {
     font-size: 60px;
+    text-align: center;
 }
 
-.home_article span {
+.home_page span {
     color: coral;
 }
 
-.home_article p {
+.home_page p {
     font-weight: 600;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-.home_article a {
+.home_page a {
     text-decoration: none;
     color: white;
     background-color: coral;
     padding: 10px 50px;
     border-radius: 20px;
+    position: absolute;
+    left: 43%;
 }
 
-.home_image img {
-    height: 430px;
-    width: 370px;
-    padding-left: 30px;
-    background-image: url('/images/shapes/shape-2.png');
-    background-repeat: no-repeat;
-    background-size: 350px 350px;
-    background-position: bottom;
-}
 
 /*------------------------
      About Me section 
@@ -131,10 +128,13 @@ body {
 }
 
 .about_me_image img {
-    height: 345px;
-    width: 436px;
-    margin-left: 60px;
-    border-radius: 10px;
+    height: 430px;
+    width: 370px;
+    padding-left: 30px;
+    background-image: url('/images/shapes/shape-2.png');
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    background-position: bottom;
 }
 
 .about_me_article {
@@ -249,15 +249,32 @@ body {
     color: coral;
 }
 
-.experience_item h3 {
+.experience_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience_item_left h3 {
     font-size: 25px;
 }
 
-.experience_item p {
+.experience_item_left p {
     font-weight: 600;
 }
 
-.experience_item span {
+.experience_item_left span {
+    color: coral;
+}
+
+.experience_item_right h3 {
+    font-size: 25px;
+}
+
+.experience_item_right p {
+    font-weight: 600;
+}
+
+.experience_item_right span {
     color: coral;
 }
 
