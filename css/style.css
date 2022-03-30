@@ -153,6 +153,26 @@ body {
     font-weight: 700;
 }
 
+.about_me button {
+    border: none;
+    background: none;
+}
+
+.about_me_btn {
+    background-color: coral;
+    color: white;
+    font-size: 18px;
+    padding: 10px 45px;
+    border-radius: 20px;
+}
+
+.about_me_btn:hover {
+    background-color: white;
+    color: coral;
+    border: 1px solid coral;
+    border-radius: 20px;
+}
+
 /*---------------------------
      Experience section 
 ---------------------------*/
@@ -208,7 +228,7 @@ body {
     padding: 5%;
     border-radius: 10%;
     margin-right: 25px;
-    box-shadow: 3px 3px 20px 1px rgb(184, 184, 184);
+    box-shadow: 3px 3px 20px 1px #b8b8b8;
 }
 
 .photoshop {
@@ -311,11 +331,13 @@ body {
 .my_work_item img {
     width: 100%;
     border-radius: 15px;
+    box-shadow: 3px 3px 20px 1px #b8b8b8;
 }
 
 .my_work_item video {
     width: 100%;
     border-radius: 15px;
+    box-shadow: 3px 3px 20px 1px #b8b8b8;
 }
 
 .see_more_btn {
