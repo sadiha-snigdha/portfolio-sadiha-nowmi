@@ -70,7 +70,7 @@ body {
     color: #292828;
 }
 
-.container{
+.container {
     width: 90%;
     margin: auto;
 }
@@ -188,7 +188,7 @@ body {
 }
 
 .skill_item_first_row,
-.skill_item_second_row{
+.skill_item_second_row {
     display: flex;
     justify-content: center;
 }
@@ -198,7 +198,7 @@ body {
     margin-top: 0;
 }
 
-.skill_item img{
+.skill_item img {
     margin-left: 5px;
 }
 
@@ -249,7 +249,7 @@ body {
     color: coral;
 }
 
-.experience_item{
+.experience_item {
     display: flex;
     justify-content: space-between;
 }
@@ -283,8 +283,10 @@ body {
      My Work Section 
 ------------------------*/
 .my_work {
+    height: 1900px;
     margin: 20px;
     padding: 20px;
+    position: relative;
 }
 
 .work_title h1 {
@@ -296,19 +298,45 @@ body {
     color: coral;
 }
 
-.work_row {
-    display: flex;
+.my_work_item_container {
+    width: 33.33%;
+    min-height: 250px;
+    float: left;
 }
 
-.work_image_resize {
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
+.my_work_item {
+    margin: 10px;
 }
 
-.work_row img {
-    padding: 10px;
+.my_work_item img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.my_work_item video {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.see_more_btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: coral;
+    margin-bottom: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.see_more_btn:hover {
+    font-weight: 700;
+    border: 1px solid coral;
+    padding: 10px 50px;
     border-radius: 20px;
+    margin-bottom: 40px;
+    left: 41.5%;
 }
 
 /*------------------------
