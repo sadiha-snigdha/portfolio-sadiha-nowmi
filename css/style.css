@@ -66,10 +66,27 @@ body {
 
 .nav_list li a {
     text-decoration: none;
+    font-size: 18px;
     font-weight: 700;
     color: #292828;
 }
 
+.nav_list li a:hover {
+    color: coral;
+}
+
+.nav_list ul span {
+    color: coral;
+}
+
+.nav_list ul span:hover {
+    color: #292828;
+}
+
+
+/*------------------------
+         Main 
+------------------------*/
 .container {
     width: 90%;
     margin: auto;
@@ -114,6 +131,12 @@ body {
     left: 43%;
 }
 
+.home_page a:hover {
+    background-color: white;
+    color: coral;
+    border: 1px solid coral;
+    border-radius: 20px;
+}
 
 /*------------------------
      About Me section 
@@ -228,7 +251,7 @@ body {
     padding: 5%;
     border-radius: 10%;
     margin-right: 25px;
-    box-shadow: 3px 3px 20px 1px #b8b8b8;
+    box-shadow: 3px 3px 20px 1px #cfcfcf;
 }
 
 .photoshop {
@@ -303,7 +326,7 @@ body {
      My Work Section 
 ------------------------*/
 .my_work {
-    height: 1900px;
+    height: 1300px;
     margin: 20px;
     padding: 20px;
     position: relative;
@@ -319,7 +342,7 @@ body {
 }
 
 .my_work_item_container {
-    width: 33.33%;
+    width: 25%;
     min-height: 250px;
     float: left;
 }
@@ -331,13 +354,13 @@ body {
 .my_work_item img {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 3px 3px 20px 1px #b8b8b8;
+    box-shadow: 3px 3px 20px 1px #cfcfcf;
 }
 
 .my_work_item video {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 3px 3px 20px 1px #b8b8b8;
+    box-shadow: 3px 3px 20px 1px #cfcfcf;
 }
 
 .see_more_btn {
@@ -360,6 +383,42 @@ body {
     margin-bottom: 40px;
     left: 41.5%;
 }
+
+/*------------------------
+    Recent Projects 
+------------------------*/
+.recent_project {
+    margin: 20px;
+    padding: 20px;
+}
+
+.recent_project h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.recent_project h1 span {
+    color: coral;
+}
+
+.project-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.project-item {
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px 1px #cfcfcf;
+}
+
+.project-item img {
+    height: 170px;
+    padding: 15px;
+}
+
 
 /*------------------------
          Footer 
