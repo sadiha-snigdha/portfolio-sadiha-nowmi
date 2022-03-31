@@ -419,20 +419,170 @@ body {
     padding: 15px;
 }
 
+/*------------------------
+        Contact 
+------------------------*/
+
+.contact {
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.contact_title p{
+    text-align: center;
+    color: #292828;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.contact h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact h1 span {
+    color: coral;
+}
+
+.contact_form {
+    height: 500px;
+    left: 23%;
+    position: relative;
+}
+
+.form_item {
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+
+.form_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 47.5%;
+    border: 2px solid #292828;
+    background: none;
+    color: #292828;
+    outline: none;
+    padding: 1.5rem;
+    border-radius: .75rem;
+    z-index: 1;
+}
+
+.form_tag {
+    position: absolute;
+    top: -.75rem;
+    left: 1.25rem;
+    padding: .25rem;
+    background-color: white;
+    z-index: 10;
+}
+
+.form_item textarea {
+    resize: none;
+}
+
+
+.contact_btn {
+    background: none;
+    border: none;
+    background-color: coral;
+    color: white;
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+
+}
+
+.contact_btn:hover {
+    background: none;
+    border: 1px solid coral;
+    color: coral;
+    font-size: 18px;
+}
+
 
 /*------------------------
          Footer 
 ------------------------*/
 
 .footer {
-    height: 800px;
+    height: 200px;
+    padding: 20px;
     background-color: #E7E7E7;
-    text-align: center;
-    color: white;
 }
 
-.footer h1 {
-    font-size: 50px;
+.footer p {
+    text-align: center;
+    margin-top: 30px;
+    color: #292828;
+    font-size: 13px;
+}
+
+.footer p span {
     color: coral;
-    padding: 3rem;
+    font-weight: 700;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.social_media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #E7E7E7;
+    height: 60px;
+    width: 60px;
+    margin: 0 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.274);
+    transition: transform 0.5s;
+}
+
+.social_media a i {
+    font-size: 25px;
+    color: #777;
+    transition: transform 0.5s;
+}
+
+.social_media a:hover {
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.274);
+    border: 1px solid coral;
+    transform: translateY(2px);
+}
+
+.social_media a:hover i{
+    transform: scale(0.90);
+}
+
+.social_media a:hover .fa-facebook{
+    color: coral;
+}
+.social_media a:hover .fa-twitter{
+    color: coral;
+}
+.social_media a:hover .fa-linkedin{
+    color: coral;
+}
+.social_media a:hover .fa-instagram{
+    color: coral;
+}
+.social_media a:hover .fa-dribbble{
+    color: coral;
+}
+.social_media a:hover .fa-behance{
+    color: coral;
 }
