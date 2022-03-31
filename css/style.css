@@ -274,56 +274,6 @@ body {
     font-size: 13px;
 }
 
-/* .skill_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 40px;
-}
-
-.skill_item_first_row,
-.skill_item_second_row {
-    display: flex;
-    justify-content: center;
-}
-
-.skill_item h2 {
-    text-align: center;
-    margin-top: 0;
-}
-
-.skill_item img {
-    margin-left: 5px;
-}
-
-.skill_item_background {
-    width: 70px;
-    height: 85px;
-    padding: 5%;
-    border-radius: 10%;
-    margin-right: 25px;
-    box-shadow: 3px 3px 20px 1px #cfcfcf;
-}
-
-.photoshop {
-    background-color: #e7f8ff;
-}
-
-.illustrator {
-    background-color: #ffded1;
-}
-
-.after_effect {
-    background-color: #efe1ff;
-}
-
-.adobe_xd {
-    background-color: #ffd1de;
-}
-
-.figma {
-    background-color: #d8d8d8;
-} */
-
 /*--------------------------
      Experience Section 
 --------------------------*/
