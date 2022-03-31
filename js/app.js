@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["Web Developer", "Graphics Designer"],
+    strings: ["Frontend Developer", "Graphics Designer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
